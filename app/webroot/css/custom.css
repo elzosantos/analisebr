@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{padding-top: 20px;}
+.default{ background:url(../img/background.jpg) repeat; padding-top:20px;} 
+.equipes{ background:url(img/equipes-background.jpg) no-repeat; padding-top:20px;} 
+.sistema{ background:url(img/add-sistema-background.jpg) no-repeat; padding-top:20px;} 
+.analise-itens{ background:url(img/analise-itens-background.jpg) no-repeat; padding-top:20px;}
+.analise-1{ background:url(img/analise-1-background.jpg ) no-repeat; padding-top:20px;}
+.analise-funcao-dados{ background:url(img/analise-funcao-dados-background.jpg ) no-repeat; padding-top:20px;}
+.funcoes-transacao{ background:url(img/funcoes-transacao-background.jpg ) no-repeat; padding-top:20px;}
+.equipes-e-sistemas{ background:url(img/equipes-e-sistemas-background.jpg) no-repeat; padding-top:20px;} 
+.listagem-equipes{ background:url(img/listagem-equipes-background.jpg) no-repeat; padding-top:20px;} 
+.listagem-sistemas{ background:url(../img/background.jpg) no-repeat; padding-top:20px;} 
+.listagem-analises{ background:url(img/listagem-analises-background.jpg) no-repeat; padding-top:20px;} 
+.paginacao{ height:20px; width:100%; margin-top:-20px; margin-bottom:10px;}
+.red{background-color:#8f1e20; color:#8f1e20;}
+.orange{background-color:#d06726;}
+.yellow{background-color:#d9ad2a;}
+
+/* Custom container */
+.container-narrow {	margin: 0 auto;	max-width: 900px !important; background-color:#fff; border:1px solid #ccc; border-radius:5px; padding:30px;}
+.container-narrow > hr {margin: 30px 0;}
+
+/* Main marketing message and sign up button */
+.jumbotron {margin: 5px 0;	text-align: center;}
+.jumbotron h1 {	font-size: 72px; line-height: 1;}
+.jumbotron .btn {font-size: 21px; padding: 14px 24px;}
+
+/* Supporting marketing content */
+.marketing {margin: 60px 0;}
+.marketing p + h4 {margin-top: 28px;}
+
+/*Barras*/
+.ui-widget-header{ margin-bottom:10px; background-color:#fff; padding:5px;}
+
+.dataTables_wrapper .ui-toolbar{padding: 17px;}
+
+.dataTables_length, .dataTables_filter{margin-top:10px;}
+
+.ui-state-default{background-color:#4F6F94; color:#fff;}
+
+/*Menu*/
+.dropdown {font-size:15px;}
+.nav-tabs, .nav-pills {font-size: 16px;}
+
+/*Input*/
+input[type="radio"]{ margin: -2px 0 0;}
+input[type="checkbox"] { margin: 6px 0 0;}
+input[type="submit"]{width: auto; padding: 11px 25px 11px 25px; margin-top: 10px;}
+
+/*Label*/
+label{margin-right: 10px;}
+.ajuste{display:inline!important; margin-left:8px;}
+.ajuste-margin-right{margin-right:10px;}
+
+/*Ajuste da altura*/
+.m10{ margin:10px 0 10px 0;}
+.m20{ margin:20px 0 20px 0;}
+
+
+#FuncionalidadeTd, #FuncionalidadeTr,#arSistem{
+	margin: 0px;
+	height: 206px;
+	width: 171px;
+	font-family: tahoma;
+	font-size: 11px;
+	min-width: 200px;
+	margin-left: -17px;
+	min-height: 200px;
+}
+
+#FuncionalidadeObservacao,#AnaliseDocumentacao,#AnalisePremissa,#AnaliseEscopo,#AnaliseProposta{
+	height: 45px;
+}

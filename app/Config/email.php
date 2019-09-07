@@ -38,68 +38,15 @@
 class EmailConfig {
 
      public $default = array(
-    	#'host' => 'analisebr.com.br',
-        #'port' => 25, 
-        #'from' => 'apfbr@analisebr.com.br',
-        #'transport' => 'Smtp'
-        #'username' => 'apfbr@brb.com.br',
-        #'password' => 'password',
+
      );
      
-     /*public $default = array(
-        'transport' => 'Mail',
-       // 'from' => 'teste@brb.com.br'
-        'from' => 'analisebr@analisebr.com.br'
-            //'charset' => 'utf-8',
-            //'headerCharset' => 'utf-8',
-    );*/
+ 
      public $smtp  = array(
-        'transport' => 'Smtp',
-        'from' => array('apfbr@analisebr.com.br' => 'APFBr'),
-        'host' => 'analisebr.com.br',
-        'port' => 26,
-        #'timeout' => 30,
-     //   'username' => 'apfbr@analisebr.com.br',
-      //  'password' => 'apfbr2@15',
-        'client' => null,
-        'log' => false,
+
     );
-     
-   /* public $smtp = array(
-        'transport' => 'Mail',
-        'from' => 'teste@brb.com.br'
-            //'charset' => 'utf-8',
-            //'headerCharset' => 'utf-8',
-    );*/
-//	public $smtp = array(
-//		'transport' => 'Smtp',
-//		'from' => array('site@localhost' => 'My Site'),
-//		'host' => 'localhost',
-//		'port' => 25,
-//		'timeout' => 30,
-//		'username' => 'user',
-//		'password' => 'secret',
-//		'client' => null,
-//		'log' => false,
-//		//'charset' => 'utf-8',
-//		//'headerCharset' => 'utf-8',
-//	);
-/*    public $smtp = array(
-        'transport' => 'Smtp',
-        'from' => array('apf@brb.com.br' => 'APFBr'),
-        'host' => 'email.brb.com.br',
-        'port' => 25,
-        'timeout' => 30,
- //       'username' => 'apf@brb.com.br',
-//        'password' => 'ALTERAR SENHA AQUI',
-        'client' => null,
-        'log' => false,
-            //'charset' => 'utf-8',
-            //'headerCharset' => 'utf-8',
-    );
-*/
+
     public $fast = array(
-      #  'from' => 'teste@brb.com.br',
         'sender' => null,
         'to' => null,
         'cc' => null,
